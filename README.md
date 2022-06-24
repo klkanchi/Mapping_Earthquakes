@@ -16,3 +16,16 @@ Each earthquake is visually represented by a circle and color, where a higher ma
 1. Street View
 2. Satellite View
 3. Dark View
+
+![streetview_of_earthquake.png](https://github.com/klkanchi/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/streetview_of_earthquake.png)
+
+![streetview_of_earthquake_tectonicplates.png](https://github.com/klkanchi/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/streetview_of_earthquake_tectonicplates.png)
+
+![Darkview.png](https://github.com/klkanchi/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Darkview.png)
+
+## Summary
+To create the maps we used the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data.
+
+Calling the API's alllowed us to traverse and retrieve GeoJSON earthquake data and tectonic plate data in order to populate a map. We then used the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data. The viewer can toggle between different layers to view either all earthquakes, only major earthquakes (over 4.5 magnitude), and the earth's tectonic plates.
+
+By viewing this visualization, it's clear that the majority of the major earthquakes in the last week have all occurred near or on the tectonic plates. Smaller earthquakes can occur farther away, but the major earthquakes all fall on or right next to the fault lines.
