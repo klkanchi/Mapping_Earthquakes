@@ -224,3 +224,4 @@ legend.onAdd = function() {
   // Then we add the earthquake layer to our map.
   tectonicPlates.addTo(map);
   });
+});
